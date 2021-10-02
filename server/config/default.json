@@ -1,0 +1,9 @@
+{
+  "PORT": "YOUR_PORT",
+  "dbConnection": "YOUR_MONGODB_CONNECTION",
+  "JWT_ACCOUNT_ACTIVATION": "accountactivationlink",
+  "JWT_SECRET": "jwtsecretkey",
+  "EMAIL": "YOUR_EMAIL",
+  "PASSWORD": "YOUR_PASSWORD",
+  "CLIENT_URL": "http://localhost:3000"
+}

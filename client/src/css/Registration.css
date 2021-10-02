@@ -1,0 +1,555 @@
+body {
+  /* background: #374646; */
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Roboto", sans-serif;
+}
+
+/*-- main --*/
+.reg-main-w3layouts {
+  padding: 3em 0 1em;
+}
+
+.reg-main-agileinfo {
+  width: 35%;
+  margin: 3em auto;
+  background: rgba(43, 40, 40, 0.18);
+  background-size: cover;
+}
+
+.reg-agileits-top {
+  padding: 3em;
+}
+
+.reg-link {
+  text-decoration: none;
+}
+
+.reg-text:focus,
+.reg-text:valid {
+  box-shadow: none;
+  outline: none;
+  background-position: 0 0;
+}
+
+.reg-agileits-top p {
+  font-size: 1em;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+.reg-agileits-top p Link {
+  color: #fff;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  transition: 0.5s all;
+  font-weight: 400;
+}
+
+/* .reg-agileits-top p Link:hover {
+  color: #76b852;
+} */
+
+/* float left */
+.reg-clear {
+  clear: both;
+}
+
+/*-- //main --*/
+/*-- checkbox --*/
+.reg-wthree-text label {
+  font-size: 0.9em;
+  color: #fff;
+  font-weight: 200;
+  cursor: pointer;
+  position: relative;
+}
+
+.reg-anim input.checkbox:checked:after {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  height: 0.5rem;
+  border-color: transparent;
+  border-right-color: transparent;
+  animation: 0.4s rippling 0.4s ease;
+  animation-fill-mode: forwards;
+}
+
+/*-- //checkbox --*/
+/*-- copyright --*/
+.reg-colorlibcopy-agile {
+  margin: 2em 0 1em;
+  text-align: center;
+}
+
+.reg-colorlibcopy-agile p {
+  font-size: 0.9em;
+  color: #fff;
+  line-height: 1.8em;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+
+.reg-colorlibcopy-agile p Link {
+  color: #fff;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+}
+
+.reg-colorlibcopy-agile p Link:hover {
+  color: #000;
+}
+
+/*-- //copyright --*/
+.reg-wrapper {
+  position: relative;
+  overflow: hidden;
+  background: #374646;
+  /* background-color: #76b852; */
+  /* background-image: url("https://www.transparenttextures.com/patterns/cubes.png"); */
+}
+.reg-h1 {
+  font-size: 3em;
+  text-align: center;
+  color: #fff;
+  font-weight: 100;
+  text-transform: capitalize;
+  letter-spacing: 4px;
+  font-family: "Roboto", sans-serif;
+}
+
+.reg-p {
+  font-size: 1em;
+  text-align: center;
+  color: #fff;
+  font-weight: 20;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-family: "Roboto", sans-serif;
+}
+
+.reg-1,
+.reg-2,
+.reg-3,
+.reg-4,
+.reg-5 {
+  font-size: 0.9em;
+  color: #fff;
+  font-weight: 100;
+  width: 94.5%;
+  display: block;
+  border: none;
+  padding: 0.8em;
+  border: solid 1px rgba(255, 255, 255, 0.37);
+  -webkit-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 96%, #fff 4%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #fff 4%);
+  background-position: -800px 0;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+/* important */
+input.email,
+input.phone,
+input.w3lpass {
+  margin: 2em 0;
+}
+.reg-phone {
+  margin-top: 15px;
+}
+
+.reg-email {
+  margin-top: 15px;
+}
+.reg-password {
+  margin-top: 15px;
+}
+.reg-cpassword {
+  margin-top: 15px;
+}
+
+.reg-checkbox {
+  margin-top: 15px;
+}
+
+::-webkit-input-placeholder {
+  color: #fff;
+  font-weight: 100;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #fff;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #fff;
+}
+
+:-ms-input-placeholder {
+  color: #fff;
+}
+
+input[type="submit"] {
+  font-size: 0.9em;
+  color: #fff;
+  /* background: #76b852; */
+  outline: none;
+  /* border: 1px solid #76b852; */
+  cursor: pointer;
+  padding: 0.9em;
+  -webkit-appearance: none;
+  width: 100%;
+  margin: 2em 0;
+  letter-spacing: 4px;
+}
+
+input[type="submit"]:hover {
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  transition: 0.5s all;
+  /* background: #8DC26F; */
+}
+
+input.checkbox {
+  background: #374646;
+  cursor: pointer;
+  width: 1.2em;
+  height: 1.2em;
+}
+
+input.checkbox:before {
+  content: "";
+  position: absolute;
+  width: 1.2em;
+  height: 1.2em;
+  background: inherit;
+  cursor: pointer;
+}
+
+input.checkbox:after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0;
+  z-index: 1;
+  width: 1.2em;
+  height: 1.2em;
+  border: 1px solid #fff;
+  -webkit-transition: 0.4s ease-in-out;
+  -moz-transition: 0.4s ease-in-out;
+  -o-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+}
+
+input.checkbox:checked:after {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  height: 0.5rem;
+  border-color: #fff;
+  border-top-color: transparent;
+  border-right-color: transparent;
+}
+
+@keyframes rippling {
+  50% {
+    border-left-color: #fff;
+  }
+
+  100% {
+    border-bottom-color: #fff;
+    border-left-color: #fff;
+  }
+}
+@-webkit-keyframes square {
+  0% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  100% {
+    -webkit-transform: translateY(-700px) rotate(600deg);
+    -moz-transform: translateY(-700px) rotate(600deg);
+    -o-transform: translateY(-700px) rotate(600deg);
+    -ms-transform: translateY(-700px) rotate(600deg);
+    transform: translateY(-700px) rotate(600deg);
+  }
+}
+
+@keyframes square {
+  0% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  100% {
+    -webkit-transform: translateY(-700px) rotate(600deg);
+    -moz-transform: translateY(-700px) rotate(600deg);
+    -o-transform: translateY(-700px) rotate(600deg);
+    -ms-transform: translateY(-700px) rotate(600deg);
+    transform: translateY(-700px) rotate(600deg);
+  }
+}
+
+/*-- responsive-design --*/
+@media (max-width: 1440px) {
+  .reg-1,
+  .reg-2,
+  .reg-3,
+  .reg-4,
+  .reg-5 {
+    width: 94%;
+  }
+}
+
+@media (max-width: 1366px) {
+  .reg-h1 {
+    font-size: 2.6em;
+  }
+
+  .reg-agileits-top {
+    padding: 2.5em;
+  }
+
+  .reg-main-agileinfo {
+    margin: 2em auto;
+  }
+
+  .reg-main-agileinfo {
+    width: 36%;
+  }
+}
+
+@media (max-width: 1280px) {
+  .reg-main-agileinfo {
+    width: 40%;
+  }
+}
+
+@media (max-width: 1080px) {
+  .reg-main-agileinfo {
+    width: 46%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .reg-main-agileinfo {
+    width: 49%;
+  }
+}
+
+@media (max-width: 991px) {
+  .reg-h1 {
+    font-size: 2.4em;
+  }
+
+  .reg-main-w3layouts {
+    padding: 2em 0 1em;
+  }
+}
+
+@media (max-width: 900px) {
+  .reg-main-agileinfo {
+    width: 58%;
+  }
+  .reg-1,
+  .reg-2,
+  .reg-3,
+  .reg-4, 
+  .reg-5{
+    width: 93%;
+  }
+}
+
+@media (max-width: 800px) {
+  .reg-h1 {
+    font-size: 2.2em;
+  }
+}
+
+@media (max-width: 736px) {
+  .reg-main-agileinfo {
+    width: 62%;
+  }
+}
+
+@media (max-width: 667px) {
+  .reg-main-agileinfo {
+    width: 67%;
+  }
+}
+
+@media (max-width: 600px) {
+  .reg-agileits-top {
+    padding: 2.2em;
+  }
+
+  input.email,
+  input.reg-text.w3lpass {
+    margin: 1.5em 0;
+  }
+
+  input[type="submit"] {
+    margin: 2em 0;
+  }
+
+  .reg-h1 {
+    font-size: 2em;
+    letter-spacing: 3px;
+  }
+}
+
+@media (max-width: 568px) {
+  .reg-main-agileinfo {
+    width: 75%;
+  }
+
+  .reg-colorlibcopy-agile p {
+    padding: 0 2em;
+  }
+}
+
+@media (max-width: 480px) {
+  .reg-h1 {
+    font-size: 1.8em;
+    letter-spacing: 3px;
+  }
+
+  .reg-agileits-top {
+    padding: 1.8em;
+  }
+
+  .reg-1, .reg-2, .reg-3, .reg-4,.reg-5{
+    width: 91%;
+
+  }
+
+  .reg-agileits-top p {
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 414px) {
+  .reg-h1 {
+    font-size: 1.8em;
+    letter-spacing: 2px;
+  }
+
+  .reg-main-agileinfo {
+    width: 85%;
+    margin: 1.5em auto;
+  }
+
+  .reg-text:focus,
+  .reg-text:valid {
+    background-position: 0 0px;
+  }
+
+
+  input[type="submit"] {
+    margin: 2em 0 1.5em;
+    letter-spacing: 3px;
+  }
+
+  input[type="submit"] {
+    margin: 2em 0 1.5em;
+  }
+
+  .reg-colorlibcopy-agile {
+    margin: 1em 0 1em;
+  }
+}
+
+@media (max-width: 384px) {
+  .reg-main-agileinfo {
+    width: 88%;
+  }
+
+  .reg-colorlibcopy-agile p {
+    padding: 0 1em;
+  }
+}
+
+@media (max-width: 375px) {
+  .reg-agileits-top p {
+    letter-spacing: 0px;
+  }
+}
+
+@media (max-width: 320px) {
+  .reg-main-w3layouts {
+    padding: 1.5em 0 0;
+  }
+
+  .reg-agileits-top {
+    padding: 1.2em;
+  }
+
+  .reg-colorlibcopy-agile {
+    margin: 0 0 1em;
+  }
+
+  
+  .reg-1, .reg-2, .reg-3, .reg-4,.reg-5{
+    width: 89.5%;
+    font-size: 0.85em;
+
+  }
+
+  .reg-h1 {
+    font-size: 1.7em;
+    letter-spacing: 0px;
+  }
+
+  .reg-main-agileinfo {
+    width: 92%;
+    margin: 1em auto;
+  }
+
+  .reg-text:focus,
+  .reg-text:valid {
+    background-position: 0 0px;
+  }
+
+  input[type="submit"] {
+    margin: 1.5em 0;
+    padding: 0.8em;
+    font-size: 0.85em;
+  }
+
+  .reg-colorlibcopy-agile p {
+    font-size: 0.85em;
+  }
+
+  .reg-wthree-text label {
+    font-size: 0.85em;
+  }
+
+  .reg-main-w3layouts {
+    padding: 1em 0 0;
+  }
+}
